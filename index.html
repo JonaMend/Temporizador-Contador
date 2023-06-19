@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Ejercicios</title>
+    <script src="/src/Ejercicio1.js" async defer></script>
+    <script src="/src/ejercicio2.js" async defer></script>
+    <link rel="stylesheet" href="/Styles/mainContador.css">
+    <link rel="stylesheet" href="/Styles//mainTempor.css">
+    <link rel="stylesheet" href="/Styles/mainCalcu.css">
+
+</head>
+
+<body>
+   
+<h1 class="Exercise">## Ejercicio 1. Contador/temporizador.</h1>
+<p class="Exercise">Crea un programa utilizando HTML, CSS y JavaScript que permita al usuario acceder a un contador sencillo (ascendente y descendente) sin límite. Así mismo, se muestre un temporizador que permita al usuario establecer un tiempo (en segundos) y que haga una cuenta regresiva por cada segundo hasta llegar a 0 y arroje una alerta de tiempo finalizado.</p>
+    <div id="container" class="container-cont">
+        <p class="item1" id="contador"></p>
+        <div class="btn-containers">
+            <button class="btn-countp" id="btn-count-plus">
+                +
+            </button>
+            <button class="btn-countn" id="btn-count-minus">
+                -
+            </button>
+
+        </div>
+        
+    </div>
+    
+    <div id="Crono" class="Time">
+        <label id="timelabel" for="timer-input">Tiempo:</label>
+        <input type="number" id="timer-input">
+        <button id="btn-start">Iniciar</button>
+        <p id="countdown-display"></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+body{
+    background: #1a0321;
+    font-family: 'Roboto', 'Segoe UI', sans-serif
+}
+#container{
+    display: flex;
+    align-items: baseline;
+    flex-flow: row wrap;
+    width: 400px;
+    height:80px;
+    border-radius: 1em;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    justify-content:space-evenly;
+    flex-direction: row-reverse;
+}
+#contador{
+    display: flex;
+    justify-content: space-around;
+    height: 14%;
+    margin: 1em;
+    color: #fff;
+    border-radius: 1em;
+    flex-shrink: 3;
+    
+}
+
+.btn-containers{
+    display: flex;
+    justify-content: space-around;
+    width:200px;
+    height:50px;
+    margin: 0.9em;
+    border-radius: 0.5em; 
+    flex-shrink: 10;  
+}
+.Exercise{
+  color: #fff;
+}
+
+.btn-countp{
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  float: right;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  flex-shrink: 5;
+}
+
+.btn-countp:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.btn-countp:active {
+    transform: translateY(-1px);
+  }  
+
+.btn-countn{
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  float: left;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.btn-countn:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.btn-countn:active {
+    transform: translateY(-1px);
+  }  
+
+#resultado{
+  color: #fff;
+}
